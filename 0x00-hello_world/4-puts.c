@@ -1,5 +1,4 @@
-
-0;276;0c#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - prints the message assigned to variable message
