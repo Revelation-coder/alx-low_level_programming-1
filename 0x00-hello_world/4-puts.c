@@ -1,10 +1,11 @@
-#include <stdio.h>
+
+0;276;0c#include <stdio.h>
 
 /**
  * main - prints the message assigned to variable message
  * puts - prints a message
  *
- * return - return 0 as success message
+ * Return: return 0 as success message
  */
 int main(void)
 {
