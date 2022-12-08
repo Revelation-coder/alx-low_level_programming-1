@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 /**
- * prints the message assigned to variable message
+ * main - prints the message assigned to variable message
+ * 
+ * Return - return 0 as success message
  */
 int main(void)
 {
