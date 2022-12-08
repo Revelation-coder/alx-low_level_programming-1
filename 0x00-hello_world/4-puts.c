@@ -4,7 +4,7 @@
  * main - prints the message assigned to variable message
  * puts - prints a message
  *
- * Return - return 0 as success message
+ * return - return 0 as success message
  */
 int main(void)
 {
