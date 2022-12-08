@@ -3,7 +3,7 @@
  * main - prints the size of the types
  * printf - prints the messages
  * 
- *Return: return a value
+ * Return: return a value
  */
 int main(void)
 {
