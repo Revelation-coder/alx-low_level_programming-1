@@ -19,8 +19,3 @@ int _isalpha(int c)
     }
   return (value);
 }
-
-void _putchar(int n)
-{
-  printf("%d",n);
-}
