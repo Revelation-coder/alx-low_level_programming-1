@@ -6,8 +6,8 @@
  * he value
  * Return: returun status code
  */
-int _islower(int c)
 
+int _islower(int c)
 {
 int value;
 if (islower(c))
@@ -18,6 +18,5 @@ else
 {
 value = 0;
 }
-
 return (value);
 }
