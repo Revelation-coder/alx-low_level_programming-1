@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include "main.h"
 /**
  *main - prints the  message
  * Return: return the status code
  */
 int main(void)
 {
-printf("_putchar\n");
+print_message();
 return (0);
 }
