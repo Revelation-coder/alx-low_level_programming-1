@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-void print_alphabet_10x(void)
+void print_alphabet_x10(void)
 {
   char letter;
   int count;
@@ -16,6 +16,6 @@ void print_alphabet_10x(void)
 }
 int main(void)
 {
-print_alphabet_10x();
+print_alphabet_x10();
 return (0);
 }
