@@ -1,4 +1,4 @@
-0;10;1c#include <stdio.h>
+#include <stdio.h>
 
 /**
  * print_last_digit - This program will assign a random number
