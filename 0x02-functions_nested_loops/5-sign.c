@@ -11,17 +11,17 @@ int value;
 if (n > 0)
 {
 value = 1;
-putchar('+');
+printf("+");
 }
 else if (n == 0)
 {
 value = 0;
-putchar('0');
+printf("0");
 }
 else if (n < 0)
 {
 value = -1;
-putchar('-');
+printf("-");
 }
 return (value);
 }
