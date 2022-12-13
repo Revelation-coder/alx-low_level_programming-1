@@ -3,6 +3,7 @@
 
 /**
  *_islower - tells if a data is lower or not
+ * @c: takes the input 
  * he value
  * Return: returun status code
  */
