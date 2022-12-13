@@ -4,6 +4,8 @@
  *print_alphabet - will print the alphabet in lowercase
  */
 void print_alphabet(void);
+void print_message(void);
+
 void print_message(void)
 {
 printf("_putchar\n");
