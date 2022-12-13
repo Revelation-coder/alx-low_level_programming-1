@@ -10,7 +10,7 @@ char letter;
 int count;
 for (count = 0; count < 10; count++)
 {
-for(letter = 'a'; letter <= 'z'; letter++)
+for (letter = 'a'; letter <= 'z'; letter++)
 putchar(letter);
 
 putchar('\n');
