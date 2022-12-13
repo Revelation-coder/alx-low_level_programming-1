@@ -1,4 +1,4 @@
-#include "main.h"
+0;10;1c#include "main.h"
 #include <stdio.h>
 /**
  * print_sign - analyse a number if is positive or not
@@ -8,7 +8,7 @@
 
 int print_sign(int n)
 {
-int value;
+
 if (n > 0)
 {
 putchar('+');
