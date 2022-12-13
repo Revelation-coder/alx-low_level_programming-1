@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+/**
+ *jack_bauer - show minutes
+ */
 void jack_bauer(void)
 {
 int hour;
