@@ -1,4 +1,4 @@
-#include <stdio.h>
+0;10;1c#include <stdio.h>
 
 /**
  * print_last_digit - This program will assign a random number
@@ -12,8 +12,8 @@ int print_last_digit(int n)
 int last_digit;
 
 last_digit = n % 10;
-putchar('0' + last_digit);
+printf("%d", last_digit);
 
-return (0);
+return (last_digit);
 
 }
