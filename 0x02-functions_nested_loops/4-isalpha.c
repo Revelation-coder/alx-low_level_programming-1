@@ -1,4 +1,5 @@
 #include <ctype.h>
+#include <stdio.h>
 
 /**
  *_isalpha - thels if it is alphabetic
@@ -17,5 +18,10 @@ int _isalpha(int c)
       value = 0;
     }
   return (value);
+}
+
+void _putchar(int n)
+{
+  printf(n);
 }
   
