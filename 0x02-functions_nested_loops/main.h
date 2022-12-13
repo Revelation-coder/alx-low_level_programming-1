@@ -1,3 +1,5 @@
+void print_message(void);
+void print_alphabet(void);
 #include <stdio.h>
 
 void print_message(void)
