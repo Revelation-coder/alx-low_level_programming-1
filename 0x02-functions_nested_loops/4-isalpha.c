@@ -22,6 +22,5 @@ int _isalpha(int c)
 
 void _putchar(int n)
 {
-  printf(n);
+  printf("%d",n);
 }
-  
