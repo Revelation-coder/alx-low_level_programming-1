@@ -1,4 +1,4 @@
-#include <stadio.h>
+#include <stdio.h>
 int main(void);
 void print_alphabet_x10(void);
 void print_alphabet(void);
