@@ -1,3 +1,4 @@
+int print_last_digit(int n);
 int _abs(int n);
 int main(void);
 void print_alphabet_x10(void);
