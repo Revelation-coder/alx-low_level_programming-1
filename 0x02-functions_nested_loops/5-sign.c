@@ -10,19 +10,19 @@ int print_sign(int n)
 {
   int value;
   if (n > 0)
-{
-putchar('+');
-value = 1;
-}
-else if (n == 0)
-{
-putchar('0');
-value = 0;
-}
-else if (n < 0)
-{
-putchar('-');
-value = -1;
-}
-return value;
+    {
+      putchar('+');
+      value = 1;
+    }
+  else if (n == 0)
+    {
+      putchar('0');
+      value = 0;
+    }
+  else if (n < 0)
+    {
+      putchar('-');
+      value = -1;
+    }
+  return value;
 }
