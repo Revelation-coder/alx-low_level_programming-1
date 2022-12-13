@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stddef.h>
+#define test_type(e)
+  if(typeof(e) == typeof(char)) 
+    { 
+      printf("is char\n"); 
+    }else{ 
+    printf("Is not\n"); 
+  } 
+
+int main(void)
+{
+  int r;
+  test_type(r+'o');
+  return (0);
+}

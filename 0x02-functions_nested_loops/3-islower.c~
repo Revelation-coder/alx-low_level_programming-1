@@ -1,0 +1,15 @@
+#include "main.h"
+#include <ctype.h>
+
+int _islower(in c)
+  int value = 0;
+{
+  if(islowr(c){
+      value = 1;
+      return (value);
+    }else{
+      value = 0;
+      return (value);
+    }
+    }
+}
