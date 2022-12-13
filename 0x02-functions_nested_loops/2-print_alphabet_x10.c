@@ -16,4 +16,5 @@ void print_alphabet_10x(void)
 int main(void)
 {
 print_alphabet_10x();
+return (0);
 }
