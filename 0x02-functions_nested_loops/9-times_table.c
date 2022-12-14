@@ -26,7 +26,8 @@ if ((line * (colum + 1)) >= 10 && (colum != 9))
 {
 _putchar(',');
 _putchar(' ');
-}else if ((line * (colum + 1)) < 10 && (colum != 9))
+}
+else if ((line * (colum + 1)) < 10 && (colum != 9))
 {
 _putchar(',');
 _putchar(' ');
