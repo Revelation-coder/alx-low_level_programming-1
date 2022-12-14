@@ -20,12 +20,12 @@ _putchar((result % 10) + '0');
 }
 else
 {
-_putchar(' ');
 _putchar(result + '0');
 }
 if (colum < 9)
 {
 _putchar(',');
+_putchar(' ');
 }
 if (colum  <= 9)
 _putchar(' ');
