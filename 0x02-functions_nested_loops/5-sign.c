@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_sign - analyse a number if is positive or not
  * @n: is the value analysed
