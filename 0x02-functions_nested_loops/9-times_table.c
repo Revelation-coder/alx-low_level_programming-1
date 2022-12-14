@@ -13,8 +13,19 @@ for (line = 0; line < 10; line++)
 for (colum = 0; colum < 10; colum++)
 {
 result = line * colum;
+if (result > 10)
+{
+_putchar((result / 10) + '0');
+_putchar((result % 10) + '0');
+}
+else
+{
 _putchar(result + '0');
+}
+if (colum < 9)
+{
 _putchar(',');
+}
 }
 _putchar('\n');
 }
