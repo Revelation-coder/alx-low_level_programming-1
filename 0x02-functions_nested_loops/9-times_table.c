@@ -27,7 +27,7 @@ if (colum < 9)
 {
 _putchar(',');
 }
-if(colum  <= 9)
+if (colum  <= 9)
 _putchar(' ');
 }
 _putchar('\n');
