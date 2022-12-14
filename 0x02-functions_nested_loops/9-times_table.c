@@ -1,39 +1,39 @@
 #include "main.h"
-
 /**
- *times_table - prints the result of the multiplication from 0 to 10
- */
-
+ * times_table - a function that prints the 9 times table.
+ *
+ * Return: Allow success
+*/
 void times_table(void)
 {
-int result, line, colum;
+int i = 0, n;
 
-for (line = 0; line < 10; line++)
+while (i <= 9)
 {
-for (colum = 0; colum < 10; colum++)
+for (n = 0; n <= 9; n++)
 {
-result = line * colum;
-if (result >= 10)
+if ((i * n) >= 10)
 {
-_putchar((result / 10) + '0');
-_putchar((result % 10) + '0');
+_putchar((i * n) / 10 + '0');
+_putchar((i * n) % 10 + '0');
 }
-else
+else if ((i * n) < 10)
 {
-_putchar(result + '0');
+_putchar((i * n) + '0');
 }
-if ((line * (colum + 1)) >= 10 && (colum != 9))
+if ((i * (n + 1)) >= 10 && n != 9)
 {
 _putchar(',');
 _putchar(' ');
 }
-else if ((line * (colum + 1)) < 10 && (colum != 9))
+else if ((i * (n + 1)) <= 9 && n != 9)
 {
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
+}
 }
 _putchar('\n');
-}
+i++;
 }
 }
