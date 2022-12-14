@@ -14,7 +14,7 @@ for (colum = 0; colum < 10; colum++)
 {
 result = line * colum;
 _putchar(result + '0');
- _putchar(',');
+_putchar(',');
 }
 _putchar('\n');
 }
