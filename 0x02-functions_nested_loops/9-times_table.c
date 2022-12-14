@@ -22,12 +22,14 @@ else
 {
 _putchar(result + '0');
 }
-if (colum < 9)
+if ((line * (colum + 1)) >= 10 && (colum != 9))
 {
 _putchar(',');
 _putchar(' ');
-}
-if (colum  <= 9)
+}else if ((line * (colum + 1)) < 10 && (colum != 9))
+{
+_putchar(',');
+_putchar(' ');
 _putchar(' ');
 }
 _putchar('\n');
