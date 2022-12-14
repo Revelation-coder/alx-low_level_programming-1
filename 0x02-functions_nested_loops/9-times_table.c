@@ -13,7 +13,7 @@ for (line = 0; line < 10; line++)
 for (colum = 0; colum < 10; colum++)
 {
 result = line * colum;
-if (result > 10)
+if (result >= 10)
 {
 _putchar((result / 10) + '0');
 _putchar((result % 10) + '0');
