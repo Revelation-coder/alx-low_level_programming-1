@@ -22,6 +22,6 @@ else
 _putchar(c1 + '0');
 }
 }
-_putchar('\n');
+
 }
 }
