@@ -7,24 +7,16 @@
  * Return: Always 0.
  */
 
-void print_diagonal(int n)
+void print_square(int size)
 {
-int c, c1;
-if (n > 0)
+int l, c;
+if (size > 0)
 {
-for (c = 0; c < n; c++)
+for (l = 1; l <= size; l++)
 {
-for (c1 = 0; c1 <= c; c1++)
+for (c = 1; c <= size; c++)
 {
-
-if (c1 == c)
-{
-_putchar('\\');
-}
-else
-{
-_putchar(' ');
-}
+_putchar('#');
 }
 _putchar('\n');
 }
@@ -33,50 +25,6 @@ else
 {
 _putchar('\n');
 }
-}
- 
-void print_line(int n)
-{
-int count;
-if (n > 0)
-{
-for (count = 0; count < n; count++)
-{
-_putchar('_');
-}
-}
- _putchar('\n');
-}
-void more_numbers(void)
-{
-int c, c1;
-
-for (c = 0; c <= 10; c++)
-{
-for (c1 = 0 ; c1 < 15; c1++)
-{
-if (c1 >= 10)
-{
-_putchar((c1/10) + '0');
-_putchar((c1%10) + '0');
-}
-else
-{
-_putchar(c1 + '0');
-}
-}
-_putchar('\n');
-}
-}
-void print_numbers(void)
-{
-  int count;
-
-  for (count =0; count < 10; count++)
-    {
-      _putchar(count + '0');
-	}
-  _putchar('\n');
 }
 int _putchar(char c)
 {
@@ -91,9 +39,8 @@ int _putchar(char c)
 
 int main(void)
 {
-    print_diagonal(0);
-    print_diagonal(2);
-    print_diagonal(10);
-    print_diagonal(-4);
+    print_square(2);
+    print_square(10);
+    print_square(0);
     return (0);
 }
