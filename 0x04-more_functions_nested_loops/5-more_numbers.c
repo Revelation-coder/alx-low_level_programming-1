@@ -1,4 +1,3 @@
-
 #include "main.h"
 
 /**
@@ -25,4 +24,12 @@ _putchar(c1 + '0');
 }
 break_line();
 }
+}
+
+/**
+ *break_line - break the line
+ */
+void break_line(void)
+{
+_putchar('\n');
 }
