@@ -7,6 +7,34 @@
  * Return: Always 0.
  */
 
+void print_diagonal(int n)
+{
+int c, c1;
+if (n > 0)
+{
+for (c = 0; c < n; c++)
+{
+for (c1 = 0; c1 <= c; c1++)
+{
+
+if (c1 == c)
+{
+_putchar('\\');
+}
+else
+{
+_putchar(' ');
+}
+}
+_putchar('\n');
+}
+}
+else
+{
+_putchar('\n');
+}
+}
+ 
 void print_line(int n)
 {
 int count;
@@ -63,9 +91,9 @@ int _putchar(char c)
 
 int main(void)
 {
-    print_line(0);
-    print_line(2);
-    print_line(10);
-    print_line(-4);
+    print_diagonal(0);
+    print_diagonal(2);
+    print_diagonal(10);
+    print_diagonal(-4);
     return (0);
 }
