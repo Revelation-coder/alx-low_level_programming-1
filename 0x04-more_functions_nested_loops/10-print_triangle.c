@@ -1,14 +1,9 @@
-#include "main.h"
-/**
- *print_triangle - prints a triangle
- *@size: the size of the triangle
- */
 void print_triangle(int size)
 {
 int c, l;
 if (size > 0)
 {
-for (l = 0; l < size; l++)
+for (l = size; l >= 0; l--)
 {
 for (c = 0; c < size; c++)
 {

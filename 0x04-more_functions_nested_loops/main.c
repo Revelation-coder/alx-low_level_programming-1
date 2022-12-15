@@ -6,6 +6,32 @@
  *
  * Return: Always 0.
  */
+void print_triangle(int size)
+{
+int c, l;
+if (size > 0)
+{
+for (l = size; l >= 0; l--)
+{
+for (c = 0; c < size; c++)
+{
+if (c >= l)
+{
+_putchar('#');
+}
+else
+{
+_putchar(' ');
+}
+}
+_putchar('\n');
+}
+}
+else
+{
+_putchar('\n');
+}
+}
 
 void print_square(int size)
 {
@@ -39,8 +65,9 @@ int _putchar(char c)
 
 int main(void)
 {
-    print_square(2);
-    print_square(10);
-    print_square(0);
+    print_triangle(2);
+    print_triangle(10);
+    print_triangle(1);
+    print_triangle(0);
     return (0);
 }
