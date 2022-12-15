@@ -9,7 +9,7 @@ int count;
 
 for (count = 0; count < 10; count++)
 {
-if (count != 2 || count != 4)
+if (count != 2 && count != 4)
 {
 _putchar(count + '0');
 }
