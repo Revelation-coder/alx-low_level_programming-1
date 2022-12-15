@@ -22,7 +22,10 @@ else
 _putchar(' ');
 }
 }
+if (l > 0)
+{
 _putchar('\n');
+}
 }
 }
 else
