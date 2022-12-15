@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - causes an infinite loop i never incremets
+* main - causes an infinite loop 
 * Return: 0
 */
 
@@ -9,7 +9,7 @@ int main(void)
 {
 int i;
 
-printf("Infinite loop incoming :(\n");
+printf("i never increment :(\n");
 
 i = 0;
 
