@@ -6,7 +6,27 @@
  *
  * Return: Always 0.
  */
+void more_numbers(void)
+{
+int c, c1;
 
+for (c = 0; c <= 10; c++)
+{
+for (c1 = 0 ; c1 < 15; c1++)
+{
+if (c1 >= 10)
+{
+_putchar((c1/10) + '0');
+_putchar((c1%10) + '0');
+}
+else
+{
+_putchar(c1 + '0');
+}
+}
+_putchar('\n');
+}
+}
 void print_numbers(void)
 {
   int count;
@@ -21,8 +41,14 @@ int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-    print_numbers();
+    more_numbers();
     return (0);
 }
