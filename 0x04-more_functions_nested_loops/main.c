@@ -1,30 +1,28 @@
-#include <stdio.h>
-#include <ctype.h>
+#include <unistd.h>
+#include "main.h"
+
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
 
-int _isdigit(int c)
+void print_numbers(void)
 {
-  if(isdigit(c))
-    {
-      return (1);
-    }
-  else
-    {
-      return (0);
-    }
-}  
+  int count;
 
+  for (count =0; count < 10; count++)
+    {
+      _putchar(count + '0');
+	}
+  _putchar('\n');
+}
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
 int main(void)
 {
-    char c;
-
-    c = '0';
-    printf("%c: %d\n", c, _isdigit(c));
-    c = 'a';
-    printf("%c: %d\n", c, _isdigit(c));
+    print_numbers();
     return (0);
 }
