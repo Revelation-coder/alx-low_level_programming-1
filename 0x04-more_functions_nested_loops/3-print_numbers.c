@@ -10,7 +10,8 @@ int count;
 
 for (count  = 0; count < 10; c++)
 {
-_putchar(count);
+_putchar(count '0');
 }
 _putchar('\n');
+}
 }
