@@ -10,10 +10,17 @@ int c, c1;
 
 for (c = 0; c < 10; c++)
 {
-for (c1 = 0 ; c < 15; c++)
+for (c1 = 0 ; c1 < 15; c1++)
+{
+if (c1 >= 10)
+{
+_putchar((c1 / 10) + '0');
+_putchar((c1 % 10) + '0');
+}
+else
 {
 _putchar(c1 + '0');
-
+}
 }
 _putchar('\n');
 }
