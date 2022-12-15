@@ -6,6 +6,19 @@
  *
  * Return: Always 0.
  */
+
+void print_line(int n)
+{
+int count;
+if (n > 0)
+{
+for (count = 0; count < n; count++)
+{
+_putchar('_');
+}
+}
+ _putchar('\n');
+}
 void more_numbers(void)
 {
 int c, c1;
@@ -47,8 +60,12 @@ int _putchar(char c)
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
-    more_numbers();
+    print_line(0);
+    print_line(2);
+    print_line(10);
+    print_line(-4);
     return (0);
 }
