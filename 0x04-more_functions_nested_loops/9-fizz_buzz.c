@@ -2,13 +2,14 @@
 
 /**
  *main - tells the multiples of 3 or 5 or both
+ * Return: return exit code
  */
 int main(void)
 {
 
 int c;
 
-for ( c = 1; c <= 100; c++)
+for (c = 1; c <= 100; c++)
 {
 if ((c % 3) == 0)
 {
@@ -34,4 +35,5 @@ putchar(' ');
 }
 }
 putchar('\n');
+return (0);
 }
