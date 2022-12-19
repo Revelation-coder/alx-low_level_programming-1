@@ -1,0 +1,35 @@
+#include "main.h"
+/**
+ *
+ */
+
+void print_arr(int [] arr)
+
+{
+  int count;
+    for (count = 0; count < 2; count++)
+    {
+      _putchar(arr[count] + '0');
+      if (count < 1)
+        {
+          _putchar(',');
+          _putchar(' ');
+        }
+      else
+        {
+          _putchar('\n');
+        }
+    }
+}
+void swap_int(int *a, int *b)
+{
+  int c;
+  int arr[2];
+  arr[0] = *a;
+  arr[1] = *b;
+  print_arr(arr);
+  c = *a;
+  *a = *b;
+  *b = c;
+
+}
