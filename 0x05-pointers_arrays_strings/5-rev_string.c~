@@ -1,0 +1,46 @@
+#include <stdio.h>
+
+void rev_string(char *s)
+{
+  char *arr;
+  printf("ok\n");
+  char *p1, *p2;
+  printf("ok\n");
+  char h;
+  printf("ok\n");
+  p1 = s;
+  printf("ok\n");
+  do
+    {
+      s++;
+      printf("in do while\n");
+    }while(*s != '\0');
+  printf("ok");
+  p2 = s;
+  printf("ok\n");
+
+  while(p1 != s)
+    {
+      printf("in while\n");
+      s--;
+      printf("ok\n");
+      h = *p1;
+      printf("ok\n");
+      *p1 = *s;
+      printf("ok\n");
+      *s = h;
+      printf("ok\n");
+      p1++;
+      printf("ok\n");
+    }
+  
+}
+int main(void)
+{
+    char s[10] = "My School";
+
+    printf("%s\n", s);
+    rev_string(s);
+    printf("%s\n", s);
+    return (0);
+}
