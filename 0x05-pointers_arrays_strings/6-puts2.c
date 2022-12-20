@@ -18,5 +18,5 @@ while(i < len)
 _putchar(str[i]);
 i += 2;
 }
- _putchar('\n');
+_putchar('\n');
 }
