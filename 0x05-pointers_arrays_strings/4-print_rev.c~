@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ *print_rev - print the scring backwards
+ *@s: is the sring
+ */
+
+void print_rev(char *s)
+{
+
+char *p1, *p2;
+p1 = s;
+while(*s != '\0')
+{
+s++;
+}
+p2 = s;
+while (p2 >= p1)
+{
+if (*p2 != '\0')
+{
+_putchar(*p2);
+}
+p2--;
+}
+_putchar('\n');
+}
