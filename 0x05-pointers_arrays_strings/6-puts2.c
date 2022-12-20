@@ -12,9 +12,10 @@ int len, i;
 while (str[len] != '\0')
 len++;
 
-for (i = 0; i < len; i += 2)
+while(i < len)
 {
 _putchar(str[i]);
+i += 2;
 }
 
 }
