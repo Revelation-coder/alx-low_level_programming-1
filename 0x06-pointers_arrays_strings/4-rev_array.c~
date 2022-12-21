@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * reverse_array - reverse the given array
+ *@a: is the array
+ *@n: is the length of the array
+ */
+
+void reverse_array(int *a, int n)
+{
+
+int aux, count;
+for (count = 0; count < n; count++)
+{
+aux = *(a + count);
+*(a + count) = *(a + (n-1));
+*(a + (n-1)) = aux;
+}
+}
