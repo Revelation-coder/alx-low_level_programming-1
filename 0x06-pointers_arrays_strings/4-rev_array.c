@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * reverse_array - reverse the given array
@@ -8,12 +9,21 @@
 
 void reverse_array(int *a, int n)
 {
-
-int aux, count;
-for (count = 0; count < n; count++)
+int c, aux;
+c = 0;
+while (c < n)
 {
-aux = *(a + count);
-*(a + count) = *(a + (n - 1));
-*(a + (n - 1)) = aux;
+aux = *(a + c);
+*(a + c) = *(a + (n - (c + 1)));
+*(a + (n - (c + 1))) = aux;
+c++;
+if (n % 2 == 0 && n / 2 == c)
+{
+break;
+}
+else if (n % 2 != 0 && n / 2 == c)
+{
+break;
+}
 }
 }
