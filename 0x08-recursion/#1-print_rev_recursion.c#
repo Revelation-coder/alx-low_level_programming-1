@@ -1,0 +1,19 @@
+#include "main.h"
+
+void _print_rev_recursion(char *s)
+{
+
+  if
+  
+}
+
+int length(char *c)
+{
+  int len;
+  len = 0;
+
+  while (*c != '\0')
+    len++;
+
+  return (len);
+}
