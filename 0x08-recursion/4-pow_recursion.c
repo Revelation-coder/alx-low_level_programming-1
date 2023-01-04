@@ -1,5 +1,6 @@
 #include "main.h"
-#include <math.h>
+
+
 /**
  *_pow_recursion - calculate the pow of x by y
  * @x: base
@@ -8,5 +9,11 @@
  */
 int _pow_recursion(int x, int y)
 {
-return (pow(x, y));
+if (y < 0)
+return (-1);
+
+if (y != 0)
+return (x * _pow_recursion(x, y - 1));
+else
+return (1);
 }
