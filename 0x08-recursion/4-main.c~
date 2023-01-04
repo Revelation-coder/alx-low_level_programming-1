@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+char print_alphabet(char letter)
+{
+  putchar(letter);
+  if (letter == 'z')
+    return (letter);
+  return (print_alphabet(++letter));
+
+}
+
+int main(void)
+{
+  putchar(print_alphabet('a'));
+  return (0);
+}
+
