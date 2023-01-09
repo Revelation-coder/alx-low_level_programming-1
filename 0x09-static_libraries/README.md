@@ -1,1 +1,1 @@
-this repository is about c librarys
+this project is about static libraries
