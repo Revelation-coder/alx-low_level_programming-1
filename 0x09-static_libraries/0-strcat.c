@@ -2,15 +2,15 @@
 #include <string.h>
 
 /**
- *_strcat - concatanate strings
- *@dest: is the destin of the concatenation
+ * _strncat - concatenates two strings
+ * @dest: is the destin where the scr will concatenate
  *@src: is the source
- * Return: return the string
+ *@n: is the number of chars that will be took from the source
+ * Return: return the result of the concatanation
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-
-return (strcat(dest, src));
+return (strncat(dest, src, n));
 
 }
